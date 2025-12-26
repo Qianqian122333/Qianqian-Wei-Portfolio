@@ -4,10 +4,18 @@ import Projects from "@/components/main/Projects";
 
 export default function Home() {
   return (
-    <div>
-      <WorkExperience />
-      <Projects />
-      <Education />
+    <div className="flex flex-col gap-16">
+      <section id="work-experience">
+        <WorkExperience />
+      </section>
+
+      <section id="projects">
+        <Projects />
+      </section>
+
+      <section id="education">
+        <Education />
+      </section>
     </div>
   );
 }
