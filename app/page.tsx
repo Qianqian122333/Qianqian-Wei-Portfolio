@@ -1,10 +1,12 @@
 import Education from "@/components/main/Education";
-import Work from "@/components/main/Work";
+import WorkExperience from "@/components/main/WorkExperience";
+import Projects from "@/components/main/Projects";
 
 export default function Home() {
   return (
     <div>
-      <Work />
+      <WorkExperience />
+      <Projects />
       <Education />
     </div>
   );
