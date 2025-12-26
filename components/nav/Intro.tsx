@@ -15,13 +15,7 @@ const Intro = () => {
         />
       </div>
       {/* 名字 - 橙色金属渐变 */}
-      <h1
-        className="text-5xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
-        }}
-      >
+      <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-orange-400 via-orange-550 to-orange-700">
         Qianqian Wei
       </h1>
       {/* 职位 - 白色 */}

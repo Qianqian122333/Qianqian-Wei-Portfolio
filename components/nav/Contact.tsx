@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { Github, Linkedin, FileDown } from "lucide-react";
 
@@ -9,15 +8,9 @@ const Contact = () => {
       <Link
         href="https://www.linkedin.com/in/qianqianwei112233"
         target="_blank"
-        className="group relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
+        className="relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
       >
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
-          }}
-        />
+        <div className="absolute inset-0 z-0 bg-linear-to-r from-orange-400 via-orange-550 to-orange-700 transition-transform duration-500 group-hover:scale-110" />
         <div className="relative z-10 flex items-center gap-2">
           <Linkedin size={20} />
           <span>LinkedIn</span>
@@ -28,15 +21,9 @@ const Contact = () => {
       <Link
         href="https://github.com/Qianqian122333"
         target="_blank"
-        className="group relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
+        className="relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
       >
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
-          }}
-        />
+        <div className="absolute inset-0 z-0 bg-linear-to-r from-orange-400 via-orange-550 to-orange-700 transition-transform duration-500 group-hover:scale-110" />
         <div className="relative z-10 flex items-center gap-2">
           <Github size={20} />
           <span>GitHub</span>
@@ -47,15 +34,9 @@ const Contact = () => {
       <a
         href="/Software Engineer Qianqian Wei.pdf"
         download="Software Engineer Qianqian Wei.pdf"
-        className="group relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
+        className="relative px-6 py-3 rounded-full font-medium text-white shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 overflow-hidden"
       >
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
-          }}
-        />
+        <div className="absolute inset-0 z-0 bg-linear-to-r from-orange-400 via-orange-550 to-orange-700 transition-transform duration-500 group-hover:scale-110" />
         <div className="relative z-10 flex items-center gap-2">
           <FileDown size={20} />
           <span>Resume</span>
