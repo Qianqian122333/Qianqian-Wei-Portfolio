@@ -29,7 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <div className="min-h-screen bg-black text-amber-50 flex flex-col md:flex-row">
-          <nav className="w-full md:w-2/5">
+          {/* <nav className="w-full md:w-2/5"> */}
+          <nav className="w-full md:w-2/5 md:sticky md:top-0 md:h-screen overflow-y-auto">
             <Navbar />
           </nav>
           <main className="w-full md:w-3/5">{children}</main>

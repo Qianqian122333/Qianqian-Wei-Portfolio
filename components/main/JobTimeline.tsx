@@ -20,7 +20,7 @@ const JobTimeline: React.FC<JobTimelineProps> = ({ jobs }) => {
         <div key={index} className="relative pl-8">
           {/* 时间线圆点 */}
           <div
-            className="absolute -left-[9px] top-1 w-4 h-4 rounded-full border-4 border-black"
+            className="absolute -left-2.25 top-1 w-4 h-4 rounded-full border-4 border-black"
             style={{
               backgroundImage:
                 "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
