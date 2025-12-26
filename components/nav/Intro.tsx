@@ -6,7 +6,7 @@ const Intro = () => {
       {/* 头像 */}
       <div className="w-36 h-36 rounded-full overflow-hidden ring-4 ring-orange-400/20 shadow-2xl flex-shrink-0">
         <Image
-          src="/Qianqian Wei.jpg"
+          src="/qianqian-wei.jpg"
           alt="Qianqian Wei"
           width={144}
           height={144}
