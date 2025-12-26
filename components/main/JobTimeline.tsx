@@ -32,7 +32,7 @@ const JobTimeline: React.FC<JobTimelineProps> = ({ jobs }) => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
               <h3 className="text-xl font-bold text-white">{job.company}</h3>
               <span
-                className="text-sm font-medium px-3 py-1 rounded-full w-fit"
+                className="text-sm font-medium px-3 py-1 rounded-full w-fit bg-white/5 border border-white/10"
                 style={{
                   backgroundImage:
                     "linear-gradient(to right, #fdba74, #f59e0b, #ea580c)",
