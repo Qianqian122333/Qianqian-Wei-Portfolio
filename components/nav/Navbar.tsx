@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="h-full flex flex-col justify-around">
       <div>
         <Intro />
       </div>

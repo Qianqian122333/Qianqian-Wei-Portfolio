@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-24 space-y-6">
+    <div className="flex flex-col items-center justify-center pt-8 pb-4 space-y-6">
       {/* 头像 */}
       <div className="w-36 h-36 rounded-full overflow-hidden ring-4 ring-orange-400/20 shadow-2xl flex-shrink-0">
         <Image

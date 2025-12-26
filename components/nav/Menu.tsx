@@ -10,14 +10,14 @@ const menuItems = [
 
 const Menu = () => {
   return (
-    <div className="flex flex-col items-center gap-6 py-8">
+    <div className="flex flex-col items-center gap-6 pt-4 pb-8">
       {menuItems.map((item) => (
         <Link
           key={item.name}
           href={item.href}
           className="text-lg font-medium text-gray-400 hover:text-orange-500 hover:scale-105 transition-all duration-300"
         >
-          {item.name}
+          --{item.name}--
         </Link>
       ))}
     </div>
