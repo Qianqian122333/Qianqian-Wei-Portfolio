@@ -1,11 +1,10 @@
 import { education } from "@/Constant/education";
 
-
 const Education = () => {
   return (
     <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto">
       <h2 className="text-4xl font-bold text-white mb-12 tracking-tight">
-        Education Background
+        Education
       </h2>
 
       <div className="relative border-l-2 border-gray-700 ml-4 space-y-10">

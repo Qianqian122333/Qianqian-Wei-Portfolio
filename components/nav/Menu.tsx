@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 const menuItems = [
+  { name: "Skills", href: "#skills" },
   { name: "Work Experience", href: "#work-experience" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },

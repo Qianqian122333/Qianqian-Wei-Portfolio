@@ -18,7 +18,7 @@ export const projects = [
     title: "Kaledio Color Mixer",
     company: "Gaahleri",
     role: "Sole Full-Stack Developer & UX Researcher",
-    status: "Completed | Internal experience",
+    status: "Internal testing | demo video(5:40)",
     description:
       "Solely spearheaded the 0-to-1 development of a full-stack ecosystem, empowering artists with personal color formula management and an intelligent color recommendation engine driven by image recognition. By integrating an e-commerce loop with a custom BI dashboard to monitor regional trends and consumer behavior. Translated complex user data into actionable strategic insights for global Marketing and R&D departments.",
     techStack: [
@@ -31,6 +31,7 @@ export const projects = [
       "Zod",
       "Shadcn UI",
     ],
+    link: "https://www.youtube.com/watch?v=CuCBGLtvFPw",
   },
   {
     title: "Aventus Brushes E-commerce Website",
@@ -46,6 +47,7 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
+    link: "https://www.gaahleri.com/pages/ace-series-aventus-tailor-made",
   },
   {
     title: "Gaahleri Website Rebranding",
@@ -55,5 +57,6 @@ export const projects = [
     description:
       "Led the rebranding of global Shopify storefronts (EN/JP), migrating legacy light UI to a high-end dark mode via custom Liquid/CSS engineering; optimized cross-cultural typography and visual hierarchy while driving high-frequency visual iterations and brand premiumization for major campaigns.",
     techStack: ["Shopify", "Liquid", "CSS", "UI/UX Design", "JavaScript"],
+    link: "https://www.gaahleri.com/",
   },
 ];
