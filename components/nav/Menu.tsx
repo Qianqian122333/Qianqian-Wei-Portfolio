@@ -25,9 +25,7 @@ const Menu = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         // 找到当前在视口中最靠近顶部的section
-        const visibleEntries = entries.filter(
-          (entry) => entry.isIntersecting
-        );
+        const visibleEntries = entries.filter((entry) => entry.isIntersecting);
 
         if (visibleEntries.length > 0) {
           // 按照boundingClientRect.top排序,选择最靠近视口顶部的
