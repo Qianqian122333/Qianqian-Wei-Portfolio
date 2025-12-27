@@ -18,7 +18,7 @@ const Contact = () => {
       </Link>
 
       {/* GitHub */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Link
           href="https://github.com/Qianqian122333"
           target="_blank"

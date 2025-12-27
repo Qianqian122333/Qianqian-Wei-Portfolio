@@ -15,11 +15,11 @@ const Intro = () => {
         />
       </div>
       {/* 名字 - 橙色金属渐变 */}
-      <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-orange-400 via-orange-550 to-orange-700">
+      <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-center bg-clip-text text-transparent bg-linear-to-r from-orange-400 via-orange-550 to-orange-700">
         Qianqian Wei
       </h1>
       {/* 职位 - 白色 */}
-      <p className="text-xl md:text-2xl font-medium text-white tracking-wide">
+      <p className="text-xl md:text-2xl font-medium text-white tracking-wide text-center">
         FullStack Software Engineer
       </p>
       {/* 描述 - 灰白 */}
