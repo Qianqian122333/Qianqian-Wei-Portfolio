@@ -1,20 +1,5 @@
 export const projects = [
   {
-    title: "Oiler.ai Website Rebranding",
-    company: "Oiler.ai",
-    role: "UX Designer",
-    status: "In Progress",
-    description:
-      "Spearheading the end-to-end UX/UI redesign of an AI-centric company, synthesizing user research into a scalable Figma design system and high-fidelity prototypes that aligned stakeholders and streamlined developer hand-off.",
-    techStack: [
-      "UI/UX Design",
-      "Figma",
-      "Prototyping",
-      "User Research",
-      "Wireframing",
-    ],
-  },
-  {
     title: "Kaledio Color Mixer",
     company: "Gaahleri",
     role: "Sole Full-Stack Developer & UX Researcher",

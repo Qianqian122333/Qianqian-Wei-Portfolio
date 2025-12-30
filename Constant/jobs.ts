@@ -1,12 +1,5 @@
 export const jobs = [
   {
-    time: "Dec 2025 - Present",
-    company: "Oiler.ai",
-    role: "UX Designer",
-    location: "Remote",
-    status: "Contract",
-  },
-  {
     time: "Aug 2025 - Present",
     company: "Gaahleri",
     role: "Full Stack Developer & UX Designer",
