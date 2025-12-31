@@ -28,7 +28,7 @@ export const education = [
   },
   {
     school: "University of Jinan",
-    degree: "Bachelor of Chinese Literature and Language (Distinction)",
+    degree: "Bachelor of Chinese Literature and Language",
     period: "Sep 2018 - Jun 2021",
     details: [
       "Core Courses: Aesthetics, Modern Literature, Foreign Literature, Contemporary Literature.",
