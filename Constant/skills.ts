@@ -5,7 +5,7 @@ export const skills = [
       {
         label: "Frontend",
         value:
-          "React, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind CSS, Shadcn UI",
+          "React, Next.js, TypeScript, JavaScript, Unit Testing, React Testing Library, HTML/CSS, Tailwind CSS, Shadcn UI",
       },
       {
         label: "Backend",
@@ -32,6 +32,19 @@ export const skills = [
         label: "Interface Design & Implementation",
         value:
           "Visual Design, Responsive Layout Design, Design-Development Collaboration",
+      },
+    ],
+  },
+  {
+    category: "Tools & DevOps",
+    items: [
+      {
+        label: "Version Control",
+        value: "Git, GitHub",
+      },
+      {
+        label: "CI/CD",
+        value: "GitHub Actions, Vercel, Docker",
       },
     ],
   },
