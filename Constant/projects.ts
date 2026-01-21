@@ -21,12 +21,11 @@ export const projects = [
   {
     title: "Aventus Brushes E-commerce Website",
     company: "Gaahleri",
-    role: "UI/UX Designer & Frontend Developer (Shopify)",
+    role: "UI/UX Designer & Frontend Developer",
     status: "Completed | Live",
     description:
       "Developed an e-commerce solution for high-ticket custom airbrushes, encompassing from UX design to the interactive purchasing website build.",
     techStack: [
-      "Shopify",
       "Frontend Development",
       "UI/UX Design",
       "CSS",
@@ -37,11 +36,11 @@ export const projects = [
   {
     title: "Gaahleri Website Rebranding",
     company: "Gaahleri",
-    role: "UI/UX Designer & Frontend Developer (Shopify)",
+    role: "UI/UX Designer & Frontend Developer",
     status: "Completed | Live",
     description:
       "Led the rebranding of global Shopify storefronts (EN/JP), migrating legacy light UI to a high-end dark mode via custom Liquid/CSS engineering; optimized cross-cultural typography and visual hierarchy while driving high-frequency visual iterations and brand premiumization for major campaigns.",
-    techStack: ["Shopify", "Liquid", "CSS", "UI/UX Design", "JavaScript"],
+    techStack: ["Frontend Development", "CSS", "UI/UX Design", "JavaScript"],
     link: "https://www.gaahleri.com/",
   },
 ];
