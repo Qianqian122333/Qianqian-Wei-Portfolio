@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Kaledio Color Mixer",
+    title: "Kaledio Color Lab",
     company: "Gaahleri",
     role: "Sole Full-Stack Developer & UX Researcher",
     status: "Internal testing | demo video(5:40)",
